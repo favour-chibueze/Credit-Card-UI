@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Credit Card</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="main.js"></script>
+</head>
+<body>
+        <section class="container">
+        <div class="slideshow-container">
+<a href="#">Go Back</a href="#">
+                <div class="mySlides fade">
+            <img src="https://res.cloudinary.com/favourchi-/image/upload/v1567685011/images_el5efl.jpg" style="width:80%">
+                </div>
+                
+                <div class="mySlides fade">
+            <img src="https://res.cloudinary.com/favourchi-/image/upload/v1567685024/download_1_yjm3z7.jpg" style="width:80%">
+                </div>
+                
+                <div class="mySlides fade">
+            <img src="https://res.cloudinary.com/favourchi-/image/upload/v1567685050/download_dn2fea.jpg" style="width:80%">                 
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                
+                <div>
+              <select class="options">
+                  <option>Please select a card</option>
+                  <option>Verve card</option>
+                  <option>Master card</option>
+                  <option>Visa card</option> 
+            </select>
+            <div>
+                    <form>
+                        <label for="fname">Card Number</label>
+                        <input type="number" id="number" range="" required>
+            
+                        <label for="fname">Card Holder</label>
+                        <input type="text" id="fname" name="" required>
+
+                        <label for="fname">Valid</label>
+                        <input type="number" id="fname" name="" required>
+
+                        <label for="fname">CVV</label>
+                        <input type="text" id="fname" name="" required>
+                      
+                        <input type="submit" value="Submit Payment">
+                    </form>
+            
+         </div>    
+       </section>    
+       
+      
+           
+       
+
+</body>
+</html>
